@@ -1,1 +1,4 @@
 l=[1,2,3,4,5]
+l.append(int(input())#addeding new element in list
+print(l)# print list elemnts
+print(l[1:3]))#slicing the list get subset of list
