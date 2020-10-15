@@ -2,3 +2,9 @@ l=[1,2,3,4,5]
 l.append(int(input())#addeding new element in list
 print(l)# print list elemnts
 print(l[1:3]))#slicing the list get subset of list
+print(l[3])#print particiular element in list using index
+#checking elemnts is present in list i.e, check 3 is in list or not
+if 3 in l:
+  print("found")
+else:
+  print("not found")
